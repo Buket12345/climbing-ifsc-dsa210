@@ -1,7 +1,12 @@
-# climbing-ifsc-dsa210
+# PROJECT FOR DSA 210 COURSE
 I am Buket Çakır and this is my term project for DSA210.
 
-# Hyphothesis: More events per season and higher average round score predict a Top-20 finish in a climbing World Cup event.
+---
+<div align="center">
+
+### Hypothesis: More events per season and higher average round score predict a Top-20 finish in a climbing World Cup event.
+
+</div>
 <p align="center">
   <img src="docs/assets/climbing_photo.jpg" alt="Climbing Competition Image" width="500">
 </p>
