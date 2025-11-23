@@ -64,6 +64,8 @@ Exploratory Data Analysis (EDA): Distribution of rankings, event counts, and ave
 
 Visualization: Scatter plots, trend lines, and discipline specific comparisons.
 
+Note: GDP per capita in this study is measured in PPP (constant 2021 international dollars), which adjusts for both differences in cost of living between countries and inflation over time. This allows for a fairer comparison of countries’ real economic conditions across different years.
+
 
 # Expected Outcome
 
