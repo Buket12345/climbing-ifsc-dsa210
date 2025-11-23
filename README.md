@@ -19,7 +19,15 @@ Climbing is a sport that combines physical strength, technique, problem-solving,
 
 This project investigates whether economic factors at the country level, specifically GDP per capita, are associated with better competitive outcomes in professional climbing. In this project, GDP per capita is used to represent the economic resources available in each athlete’s home country. By merging this dataset with the IFSC competition results using the athletes’ nationality, the analysis investigates whether climbers from wealthier countries tend to achieve better and more consistent competition results.
 
+# Motivation
 
+Sport performance is often explained through individual talent, dedication, and training quality. However, access to high quality facilities, professional coaching and competition opportunities is not equally distributed across the world. These resources are strongly influenced by a country’s economic situation, which may create advantages or disadvantages for athletes before they even start competing.
+
+While climbing is a global sport, elite climbing requires access to indoor climbing walls, advanced equipment, and professional training and competition exposure, which are all more available and accessible in economically developed countries.
+
+I was curious about whether a country’s level of economic development has any real impact on the success of its athletes in international climbing competitions. By combining IFSC World Cup results with GDP per capita data, this project explores whether national wealth is linked to stronger and more consistent performance, or whether climbing remains a sport where success can emerge regardless of economic background.
+
+Understanding this relationship not only provides insight into inequalities in sports development, but also challenges assumptions about what determines high performance on the global stage. To explore this further, I will also perform a subgroup analysis by gender to test whether the relationship between GDP and performance varies between male and female athletes.
 
 # Data Collection
 To explore this relationship, I combine:
