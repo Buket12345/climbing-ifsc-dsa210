@@ -17,7 +17,7 @@ DSA210 Term Project
 
 Climbing is a sport that combines physical strength, technique, problem-solving, and mental focus. In competition climbing particularly in IFSC World Cup events, athletes face routes designed to test their endurance, precision, and adaptability under time pressure.
 
-This project investigates whether economic factors at the country level, specifically GDP per capita, are associated with better competitive outcomes in professional climbing. In this project, GDP per capita is used to represent the economic resources available in each athlete’s home country. By merging this dataset with the IFSC competition results using the athletes’ nationality, the analysis investigates whether climbers from wealthier countries tend to achieve better and more consistent competition results.
+This project investigates whether economic factors at the country level, specifically GDP per capita, are associated with better competitive outcomes in professional climbing. In this project, GDP per capita is used to represent the economic resources available in each athlete’s home country. GDP per capita in this study is measured in PPP (constant 2021 international dollars), which adjusts for both differences in cost of living between countries and inflation over time. This allows for a fairer comparison of countries’ real economic conditions across different years. By merging this dataset with the IFSC competition results using the athletes’ nationality, the analysis investigates whether climbers from wealthier countries tend to achieve better and more consistent competition results.
 
 # Motivation
 
@@ -36,7 +36,7 @@ Athlete-level performance data from IFSC competitions, and
 
 Country-level GDP per capita data from the World Bank.
 
-The datasets that will be used in this project will be obtained from Kaggle. They are titled as “IFSC Competition Climbing Results (1991–2024)” and "Global GDP Per Capita (1990-2023) - World Bank".
+The datasets that are used in this project are obtained from Kaggle. They are titled as “IFSC Competition Climbing Results (1991–2024)” and "Global GDP Per Capita (1990-2023) - World Bank".
 
 Sources: 
 
@@ -47,13 +47,13 @@ https://www.kaggle.com/datasets/gauravkumar2525/global-gdp-per-capita-1990-2023-
 This dataset provides country-level economic data sourced from the World Bank. It contains annual values of GDP per capita for countries across the world between 1990 and 2023. GDP per capita is often used to reflect how financially developed or wealthy a country is, and it gives a general idea of the living standards in that country.
 
 
-By merging these datasets using each athlete’s nationality, I analyze whether athletes from economically stronger countries tend to achieve better competition rankings and show more consistent performance throughout the season.
+By merging these datasets using each athlete’s nationality, I analyzed whether athletes from economically stronger countries tend to achieve better competition rankings and show more consistent performance throughout the season.
 
-Since the datasets are already available publicly, the data collection step will involve:
+Since the datasets are already available publicly, the data collection step involved:
 
 -Downloading the dataset from Kaggle.
 
--Cleaning and organizing the data (handling missing values, filtering event types).
+-Cleaning and organizing the data (handling missing values, filtering the columns).
 
 -Extracting the relevant variables that show athlete performance history and merging them with each athlete’s country-level GDP per capita.
 
@@ -64,7 +64,6 @@ Exploratory Data Analysis (EDA): Distribution of rankings, event counts, and ave
 
 Visualization: Scatter plots, trend lines, and discipline specific comparisons.
 
-Note: GDP per capita in this study is measured in PPP (constant 2021 international dollars), which adjusts for both differences in cost of living between countries and inflation over time. This allows for a fairer comparison of countries’ real economic conditions across different years.
 
 
 # Expected Outcome
