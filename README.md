@@ -6,7 +6,7 @@ DSA210 Term Project
 ---
 <div align="center">
 
-### Hypothesis: Athletes from higher GDP countries tend to achieve stronger and more consistent performance in IFSC World Cup climbing events.
+### Hypothesis: Athletes from higher GDP countries tend to achieve stronger performance in IFSC World Cup climbing events.
 
 </div>
 <p align="center">
