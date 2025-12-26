@@ -107,6 +107,30 @@ By merging these datasets using each athlete’s nationality, I analyzed whether
 
 -Subgroup analysis by gender using both Pearson and Spearman correlations
 
+
+### The following machine learning models were used:
+
+- Linear regression to model average country-season rank  
+- Logistic regression to classify top performing country-seasons
+
+
+## The Machine Learning Approach
+
+Supervised machine learning models were applied at the country-season level.
+
+Each country-season observation includes:
+- GDP per capita
+- Number of events participated in
+- Season (year)
+- Gender (encoded as a binary variable)
+
+In the regression model, the goal was to predict the average IFSC rank of a country in a given season.
+
+For classification, countries were grouped into two categories based on performance. If the average rank was 20 or better, it was labeled as Top 20; otherwise, it was labeled as Non-Top 20.
+I used top 20 athletes for evaluating better performing athletes.
+
+The dataset was split into training and testing sets using an 80/20 train-test split.
+
 -----
 
 # Observed Outcome
@@ -129,11 +153,27 @@ A much weaker and statistically insignificant relationship for female athletes
 
 This suggests that while national economic conditions may have a small influence on climbing performance, individual talent, training environment, and other social or structural factors play a far larger role in determining competitive success.
 
+### Machine Learning Results
+
+A linear regression model was used to predict average IFSC rank at the country-season level.  
+The model achieved:
+
+- Training R² = 0.21  
+- Test R² = 0.24  
+
+This indicates that the model explains a modest portion of the variance in average ranking. GDP per capita has a negative coefficient which means higher GDP is associated with better (lower) average rank. But most variation in performance still remains unexplained which suggests that economic indicators alone are insufficient predictors of climbing success.
+
+A logistic regression model was then applied to classify whether a country-season achieved a **Top 20 average rank**.
+
+- Classification accuracy = 74%
+
+The model performs well at identifying non top-performing country-seasons but struggles to correctly classify top performing ones. This reflects class imbalance in the data and suggests that while GDP helps distinguish general performance levels, they are less effective at predicting elite level outcomes.
+
 -----
 
 # Tools and Environment
 
-Python (pandas, numpy, matplotlib, seaborn, scipy)
+Python (pandas, numpy, matplotlib, seaborn, scipy, scikit-learn)  
 
 Google Collab
 
