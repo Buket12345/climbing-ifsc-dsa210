@@ -108,13 +108,15 @@ By merging these datasets using each athlete’s nationality, I analyzed whether
 -Subgroup analysis by gender using both Pearson and Spearman correlations
 
 
-### The following machine learning models were used:
+
+## The following machine learning models were used:
 
 - Linear regression to model average country-season rank  
 - Logistic regression to classify top performing country-seasons
 
 
-## The Machine Learning Approach
+
+## The Machine Learning Approach Explained
 
 Supervised machine learning models were applied at the country-season level.
 
@@ -126,7 +128,7 @@ Each country-season observation includes:
 
 In the regression model, the goal was to predict the average IFSC rank of a country in a given season.
 
-For classification, countries were grouped into two categories based on performance. If the average rank was 20 or better, it was labeled as Top 20; otherwise, it was labeled as Non-Top 20.
+For classification, countries were grouped into two categories based on performance. If the average rank was 20 or better, it was labeled as Top 20; otherwise, it was labeled as Non Top 20.
 I used top 20 athletes for evaluating better performing athletes.
 
 The dataset was split into training and testing sets using an 80/20 train-test split.
@@ -161,7 +163,7 @@ The model achieved:
 - Training R² = 0.21  
 - Test R² = 0.24  
 
-This indicates that the model explains a modest portion of the variance in average ranking. GDP per capita has a negative coefficient which means higher GDP is associated with better (lower) average rank. But most variation in performance still remains unexplained which suggests that economic indicators alone are insufficient predictors of climbing success.
+This indicates that the model explains a fair portion of the variance in average ranking. GDP per capita has a negative coefficient which means higher GDP is associated with better (lower) average rank. But most variation in performance still remains unexplained which suggests that economic indicators alone are insufficient predictors of climbing success.
 
 A logistic regression model was then applied to classify whether a country-season achieved a **Top 20 average rank**.
 
