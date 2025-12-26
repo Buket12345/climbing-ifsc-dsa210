@@ -116,7 +116,7 @@ By merging these datasets using each athlete’s nationality, I analyzed whether
 
 
 
-## The Machine Learning Approach Explained
+### The Machine Learning Approach Explained
 
 Supervised machine learning models were applied at the country-season level.
 
@@ -155,7 +155,7 @@ A much weaker and statistically insignificant relationship for female athletes
 
 This suggests that while national economic conditions may have a small influence on climbing performance, individual talent, training environment, and other social or structural factors play a far larger role in determining competitive success.
 
-### Machine Learning Results
+## Machine Learning Results
 
 A linear regression model was used to predict average IFSC rank at the country-season level.  
 The model achieved:
@@ -169,7 +169,7 @@ A logistic regression model was then applied to classify whether a country-seaso
 
 - Classification accuracy = 74%
 
-The model performs well at identifying non top-performing country-seasons but struggles to correctly classify top performing ones. This reflects class imbalance in the data and suggests that while GDP helps distinguish general performance levels, they are less effective at predicting elite level outcomes.
+The model performs well at identifying non top performing country-seasons but struggles to correctly classify top performing ones. This reflects class imbalance in the data and suggests that while GDP helps distinguish general performance levels, they are less effective at predicting elite level outcomes.
 
 -----
 
