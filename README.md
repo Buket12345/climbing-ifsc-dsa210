@@ -122,14 +122,14 @@ By merging these datasets using each athlete’s nationality, I analyzed whether
 Supervised machine learning models were applied at the country-season level.
 
 Each country-season observation includes:
-- GDP per capita
-- 
-- Number of events participated in
-- 
-- Season (year)
-- 
-- Gender (encoded as a binary variable)
-- 
+-GDP per capita
+
+-Number of events participated in
+
+-Season (year)
+
+-Gender (encoded as a binary variable)
+
 
 In the regression model, the goal was to predict the average IFSC rank of a country in a given season.
 
