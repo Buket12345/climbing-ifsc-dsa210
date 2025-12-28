@@ -121,7 +121,8 @@ By merging these datasets using each athlete’s nationality, I analyzed whether
 
 Supervised machine learning models were applied at the country-season level.
 
-Each country-season observation includes:
+Each country-season observation includes: 
+
 -GDP per capita
 
 -Number of events participated in
@@ -162,15 +163,15 @@ This suggests that while national economic conditions may have a small influence
 
 ## Machine Learning Results
 
-A linear regression model was used to predict average IFSC rank at the country-season level.  
+A linear regression model was used to predict average IFSC rank at the country-season-gender level.  
 The model achieved:
 
 - Training R² = 0.20  
 - Test R² = 0.20 
 
-This indicates that the model explains %20 of the variance in average ranking. GDP per capita has a negative coefficient which means higher GDP is associated with better (lower) average rank. But most variation in performance still remains unexplained which suggests that economic indicators alone are insufficient predictors of climbing success.
+This indicates that the model explains %20 of the variance in average ranking.  But most variation in performance still remains unexplained which suggests that economic indicators alone are insufficient predictors of climbing success.
 
-A logistic regression model was then applied to classify whether a country-season achieved a **Top 20 average rank**.
+A logistic regression model was then applied to classify whether a country-season-gender group achieved a **Top 20 average rank**.
 
 - Classification accuracy = 75%
 
