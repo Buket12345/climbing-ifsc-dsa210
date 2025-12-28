@@ -111,8 +111,9 @@ By merging these datasets using each athlete’s nationality, I analyzed whether
 
 ## The following machine learning models were used:
 
-- Linear regression to model average country-season rank  
-- Logistic regression to classify top performing country-seasons
+ -Linear regression to model average country-season rank  
+ 
+ -Logistic regression to classify top performing country-seasons
 
 
 
@@ -122,9 +123,13 @@ Supervised machine learning models were applied at the country-season level.
 
 Each country-season observation includes:
 - GDP per capita
+- 
 - Number of events participated in
+- 
 - Season (year)
+- 
 - Gender (encoded as a binary variable)
+- 
 
 In the regression model, the goal was to predict the average IFSC rank of a country in a given season.
 
